@@ -1,0 +1,72 @@
+.container {
+    width: 100%; 
+    margin: 20px 50px;
+}
+
+.rowContainer {
+    width: 200%;
+    margin: 1em;
+}
+
+.linkButton {
+    background-color: #B1040E; /* Red */
+    border: none;
+    color: white;
+    padding: 24px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 30em;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.smallButton {
+    background-color: #B1040E;
+    border: none;
+    color: white;
+    padding: 26px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 5em;
+    margin-left: 0.5em;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.grayButton {
+    background-color: #565656;
+    color: white;
+    cursor: default; 
+  }
+
+.linkButton:hover{
+    cursor: pointer;
+    background-color: #565656;
+}
+
+
+.smallButton:hover{
+    cursor: pointer;
+    background-color: #565656;
+}
+
+.userInfoContainer {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.userInfo {
+    border: white 2px;
+    width: auto;
+}
+
+.defaultMessage {
+    font-size: 32px;
+}

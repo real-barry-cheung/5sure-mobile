@@ -1,0 +1,42 @@
+.navigationBar {
+    display: flex;
+    flex-direction: column;
+    max-width: 260px;
+    background-color: #820000;
+    color: #A7A8A8;
+    font-size: 1.15rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.ulclass {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    width: 100%;
+    display:flex;
+    align-items: center;
+    color: #D1D2D4;
+    font-weight: Regular;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+
+li:hover {
+    padding: 0;
+    color: #FFFFFF;
+    background-color: #A72828;
+    border-left: .35rem solid #FFFFFF;
+}
+
+span {
+    padding-left: 2em;
+    color: #D1D2D4;
+}

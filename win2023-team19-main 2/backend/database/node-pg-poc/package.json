@@ -1,0 +1,16 @@
+{
+  "name": "pg-poc",
+  "version": "1.0.0",
+  "description": "POC for using node-pg",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "run": "node index.js"
+  },
+  "author": "erickhernandezascencio",
+  "license": "ISC",
+  "dependencies": {
+    "node-pg": "^1.0.1",
+    "pg": "^8.9.0"
+  }
+}
